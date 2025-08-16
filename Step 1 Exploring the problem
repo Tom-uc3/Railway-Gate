@@ -1,0 +1,26 @@
+1. Restate the problem in your own words
+
+I am asked to design a logic-based safety system to control the gates at a railway crossing. It must make sure that the gates are lowered when a train is approaching and remain lowered when the train is still on the tracks and it is not safe to cross yet.
+
+2. Identify and describe all inputs and outputs of the system.
+
+The inputs for the system are sensors for the train approaching, the train still on the track, and the train is nearly gone. The outputs are to open and close each of the gates; this can be merged into on output as if one gate is closed the other should also be closed.
+
+
+Input/Output
+Description
+TA Sensor
+Detects if a train is approaching.
+TT sensor
+Detects if a train is still on the tracks.
+TG sensor
+Detects when the train is nearly gone.
+Gate
+Relies on the inputs to open and close the gates on either side of the road.
+
+
+
+3. Describe the context, constraints (technical, economic, social, environmental, legal), and stakeholders you can think about.
+
+The constraints of the system described are that it cannot detect whether a car is still on the tracks, and it doesn’t describe whether or not there are warning lights for the gates closing. This could lead to people crashing into the gate or getting stuck between them while there is an oncoming train. It also doesn’t describe some sort of emergency stop button if there was to be an issue which could lead to legal issues.
+Having 3 sensors may also be costly to keep maintained.
