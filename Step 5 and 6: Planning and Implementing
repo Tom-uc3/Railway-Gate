@@ -1,0 +1,4 @@
+ • Write a sequence of tasks written using plain English.
+ • Include a flowchart of the logic.
+
+The TA sensor senses a train approaching and closes the gates, Then the TT sensor senses there is still a train on the tracks and keeps the gates closed. The TG sensor then senses that the train is nearly gone and nearly out of way, then when the train is off of the last sensor the gate opens.
