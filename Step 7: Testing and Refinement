@@ -1,0 +1,51 @@
+ • Propose at least four test cases based on input combinations.
+ • Record expected vs. actual outputs. 
+
+Test 1
+
+TA = False
+TT = True
+TG = True
+
+Expected Output
+The Gate should remain closed as the TT sensor still senses a train on the tracks.
+Actual Output
+The gate remains closed.
+Test 2 
+
+TA = True
+TT = false
+TG = True
+Expected Output
+The gate should remain closed as the TA sensor senses a new oncoming train.
+Actual Output
+The gate remains closed.
+
+
+
+
+Test 3 
+
+TA = True 
+TT = True
+TG = False
+
+Expected Output
+The gate should be closed as there is a train on the tracks and there is another train approaching.
+Actual Output
+The gate remains closed.
+
+Test 4 
+
+TA = True 
+TT = True 
+TG = True
+
+Expected Output
+The Gate should remain closed as there is still a train on the tracks, and another train is approaching. 
+Actual Output
+The gate remains Closed.
+
+• Suggest improvements or refinements to the logic circuit.
+
+The logic circuit is simple and adequate. The only improvements I could make are if there are extra safety features, such as warning lights, an emergency stop or if there is a sensor to detect if there is a car still on tracks.
