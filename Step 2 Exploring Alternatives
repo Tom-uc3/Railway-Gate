@@ -1,0 +1,13 @@
+1. Brainstorm at least two different logic-based solutions. 
+
+Solution 1:
+TA sensor senses the train approaching, gate closes. The TT sensor senses that the train is still on the tracks, gate remains closed. The TG sensor senses train is nearly gone, and when the train has gotten off of the senser the gate opens.
+
+Solution 2:
+TA sensor senses the train approaching, gate closes. The system assumes the train is still on the tracks until the TG sensor senses the train is gone, and then the gate opens.
+
+
+2. Research at least one real-world example of a crossing gate control system. Please be brief (100 words)
+
+The real-world example I researched was from a company named Wabtec Corporation. Their control system relies on feedback from the train itself on when it will arrive at a crossing; this feedback is then sent to the specific crossing controller.
+The controller then determines when to close the gate based upon said feedback; the train updates this information as it gets closer to the gate so that it can close the gate at an appropriate time. (Wabtec corporation, 2022)
